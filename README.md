@@ -1,9 +1,9 @@
 # SQLPortfolioProjects
 Hello! This repository contains all the projects I did using SQL. 
 
-**Project Summary — COVID-19 Data Exploration using SQL**
+**COVID-19 Data Exploration using SQL**
 
-This project involved performing extensive SQL-based data analysis on COVID-19 datasets to uncover global and country-level insights about cases, deaths, and vaccinations. The work demonstrates data cleaning, transformation, and analytical querying using advanced SQL operations such as **aggregations, window functions, CTEs, temporary tables, and views**. Two CSV files were used namely CovidDeaths.csv and CovidVaccinations.csv which are uploaded along with the query file.
+This project involved performing extensive SQL-based data analysis on COVID-19 datasets to uncover global and country-level insights about cases, deaths, and vaccinations. The work demonstrates data cleaning, transformation, and analytical querying using advanced SQL operations such as **aggregations, window functions, CTEs, temporary tables, and views**. Two CSV files were used namely CovidDeaths.csv and CovidVaccinations.csv which are uploaded along with the query file. SQL server management studio is used in this project
 
 ---
 
