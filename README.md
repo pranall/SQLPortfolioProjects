@@ -8,5 +8,5 @@ End-to-end SQL analysis of global COVID-19 data covering cases, deaths, vaccinat
 **Skills used:**
 Data cleaning, filtering, joins, aggregations, window functions, CTEs, temp tables, views, type conversion, error handling, analytical SQL, dataset preparation for BI visualization.
 
-**Link** [(https://github.com/pranall/SQLPortfolioProjects/tree/main/Covid-19%20Data%20Exploration)]
+**Link** [https://github.com/pranall/SQLPortfolioProjects/tree/main/Covid-19%20Data%20Exploration]
 
