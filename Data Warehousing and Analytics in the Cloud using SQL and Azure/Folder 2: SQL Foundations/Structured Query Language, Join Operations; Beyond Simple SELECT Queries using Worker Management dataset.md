@@ -17,13 +17,11 @@ Database Created   
 ![image3](https://github.com/user-attachments/assets/09ba5afa-b1cb-4abd-906f-d2c0a25baee4)
 
 List of Databases including Worker
+
 ---------------------------------------------------------------------------------------------------------------------
-Query2: 
-• Created the Department table in the Worker database (table based on Physical Model Provided in folder1).  
-• Columns, Primary Key (PK), Data Type & length, and NULL/NOT NULL are implemented, as provided in the Physical Model.  
-• Table definition (DDL) is implemented.  
-• Complete set of data is provided in the Excel file and insert statements are used used.  
-• Data is retrieved from the Department table by using the SELECT * statement and order by PK column(s). Output is shown. The print screen of the complete set of the rows and columns is shown. The rows are ordered by PK column(s). 
+
+Query 2: Created the **Department** table in the `Worker` database according to the provided physical data model. All columns, data types, lengths, primary key constraints, and NULL/NOT NULL rules were implemented as specified. The full dataset from the Excel file was inserted using `INSERT` statements. Data retrieval was performed with `SELECT *` and ordered by the primary key column(s). The output screenshot displays the complete, correctly ordered result set.
+
 
 ![image4](https://github.com/user-attachments/assets/d5c2b0f7-80b1-4a01-a970-70c1b56eaf92)
 
@@ -34,17 +32,9 @@ MySQl Commands
 Depatment Table
 
 ------------------------------------------------------------------------------------------------------------------------
-Query3: 
 
-• Created the Employee table in the Worker database (table based on Physical Model provided in the folder).  
-
-(a) Columns, Primary Key (PK), Data Type and length, and NULL/NOT NULL are implemented, as provided in the Physical Model.  
-
-(b) Table definition (DDL) that was implemented (not in a graphical view).  
-
-(c) Complete set of data provided in the Excel file was uploaded and insert statements are used.  
-
-(d) Data is retrieved from the Employee table by using the SELECT * statement and order by PK column(s). Output is shown. Print screen of the complete set of the rows and columns is shown. The rows are be ordered by PK column(s). 
+Query 3: Created the **Employee** table in the `Worker` database based on the provided physical data model. All columns, data types, lengths, primary key constraints, and NULL/NOT NULL rules were implemented exactly as specified. The corresponding DDL was written manually. The complete dataset from the Excel file was inserted using `INSERT` statements. Data retrieval was performed with `SELECT *` and ordered by the primary key column(s). The screenshot shows the full result set with all rows and columns in the correct order.
+ 
 
 ![image6](https://github.com/user-attachments/assets/b1a2841f-085e-487f-9923-14db026ad4e8)
 
