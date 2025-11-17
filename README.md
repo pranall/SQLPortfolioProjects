@@ -21,6 +21,8 @@ The repo is divided into 4 parts in which I explored and presented the following
 **Folder 1 — Introduction to Database Modeling & Design**
 Fundamental concepts of data modeling, including conceptual, logical, and physical models, built from raw business data.
 
+[Introduction to Database Modeling & Design project full link](https://github.com/pranall/SQLPortfolioProjects/tree/main/Data%20Warehousing%20and%20Analytics%20in%20the%20Cloud%20using%20SQL%20and%20Azure/Folder%201%3A%20Introduction%20to%20Database%20Modeling%20%26%20Design)
+
 **Folder 2 — SQL Foundations**
 Core SQL principles and essential query skills used to manage and retrieve data effectively.
 
