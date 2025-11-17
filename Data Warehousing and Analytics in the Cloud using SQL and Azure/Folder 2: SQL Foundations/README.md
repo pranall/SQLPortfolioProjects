@@ -14,7 +14,7 @@ Version 8.0.36 Installed
 
 Database Created   
 
-![image1b](https://github.com/user-attachments/assets/5d564582-8e7b-4dd2-8473-d0d55cd449db)
+![image3](https://github.com/user-attachments/assets/09ba5afa-b1cb-4abd-906f-d2c0a25baee4)
 
- List of Databases including Worker
+List of Databases including Worker
 
