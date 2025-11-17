@@ -18,16 +18,18 @@ Data Warehousing and Analytics in the Cloud
 
 The repo is divided into 4 parts in which I explored and presented the following. 
 
-**Folder 1 — Introduction to Database Modeling & Design**
+**Folder 1: Introduction to Database Modeling & Design**
 Fundamental concepts of data modeling, including conceptual, logical, and physical models, built from raw business data.
 
 [Introduction to Database Modeling & Design project full link](https://github.com/pranall/SQLPortfolioProjects/tree/main/Data%20Warehousing%20and%20Analytics%20in%20the%20Cloud%20using%20SQL%20and%20Azure/Folder%201%3A%20Introduction%20to%20Database%20Modeling%20%26%20Design)
 
-**Folder 2 — SQL Foundations**
+**Folder 2: SQL Foundations**
 Core SQL principles and essential query skills used to manage and retrieve data effectively.
 
-**Folder 3 — Data Warehousing & Advanced SQL**
+[SQL Foundations full project link](https://github.com/pranall/SQLPortfolioProjects/tree/main/Data%20Warehousing%20and%20Analytics%20in%20the%20Cloud%20using%20SQL%20and%20Azure/Folder%202%3A%20SQL%20Foundations)
+
+**Folder 3: Data Warehousing & Advanced SQL**
 Designing warehouse structures and applying advanced SQL techniques for analytics and optimization.
 
-**Folder 4 — Advanced Data Warehousing & Cloud Data Management (Azure)**
+**Folder 4: Advanced Data Warehousing & Cloud Data Management (Azure)**
 High-level warehousing concepts and cloud-based data handling using Azure services.
