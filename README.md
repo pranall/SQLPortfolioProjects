@@ -34,6 +34,8 @@ Structured Query Language, Join Operations; Beyond Simple SELECT Queries. Core S
 
 Designing warehouse structures and applying advanced SQL techniques for analytics and optimization.
 
+[Data Warehousing and Advanced SQL full project link](https://github.com/pranall/SQLPortfolioProjects/tree/main/Data%20Warehousing%20and%20Analytics%20in%20the%20Cloud%20using%20SQL%20and%20Azure/Folder%203%3A%20Data%20Warehousing%20%26%20Advanced%20SQL)
+
 **Folder 4: Advanced Data Warehousing & Cloud Data Management (Azure)-**
 
 High-level warehousing concepts and cloud-based data handling using Azure services.
