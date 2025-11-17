@@ -89,4 +89,90 @@ No. of Rows in CustomerChurn_Version1
 
 ![Query6 2](https://github.com/user-attachments/assets/48abb3c4-15fd-4653-9d27-c49e655eb9cb)
 
+![Output5](https://github.com/user-attachments/assets/8e182869-3e9e-49fc-a7c6-dfd620c53557)
 
+Last few Rows of CustomerChurn_Version1 Table
+
+(d): Staging table was cleared and reloaded with **CustomerChurn2.csv**. Row count matched the source file, confirming a complete load. Final rows were retrieved with `ORDER BY CustomerId`, showing all columns and validating correct ingestion.
+
+![Query6 3](https://github.com/user-attachments/assets/f15f64fd-14b8-4e22-9e31-d046790c0971)
+
+![Output6 4](https://github.com/user-attachments/assets/00414a0a-6f79-4d2f-b024-1598eeae82c0)
+
+![Output6 5](https://github.com/user-attachments/assets/6b32d406-4696-48c9-b515-3caf6ca5d2ac)
+
+![Output6 6](https://github.com/user-attachments/assets/c64d5a55-57f6-49c3-9cd7-466a6fdf015e)
+
+![Output6 7](https://github.com/user-attachments/assets/d29a98f8-2fda-45ca-9a5a-e8a48fbfb53d)
+
+The above steps demonstrate how the CSV file is imported 
+
+![Query6 4](https://github.com/user-attachments/assets/2b6c817e-8cf3-4463-adc2-9ac8215054e8)
+
+![Output6 8](https://github.com/user-attachments/assets/2c8eb97b-ade0-45fc-975a-21bf9cdca861)
+
+No. of Rows in CustomerChurn_Stage after importing CustomerChurn2 data 
+
+![Query6 5](https://github.com/user-attachments/assets/294e7fc4-4d61-4bd6-87aa-fd3c6b348724)
+
+![Output6 9](https://github.com/user-attachments/assets/dd82ca28-a686-4f19-a1d4-35ddf681d9b6)
+
+Last few Rows of CustomerChurn_Stage Table after importing CustomerChurn2 data 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Query 7: Executed **Customer.PrCustomerChurn** to refresh the persistent table using data from **CustomerChurn2.csv**. Verified row counts for both **Customer.CustomerChurn_Version1** (snapshot from CustomerChurn1.csv) and the updated **Customer.CustomerChurn** table. Identified and displayed rows present in **Version1** but removed from the refreshed persistent table, confirming correct DELETE behavior within the stored procedure.
+
+![Capture](https://github.com/user-attachments/assets/393e259e-6376-4c01-9745-d3225126f266)
+
+MySQL Commands 
+
+![Query7](https://github.com/user-attachments/assets/5c9f8ddf-859c-4a4f-a45f-b5d6f1e6248a)
+
+![Output7](https://github.com/user-attachments/assets/7a9b8be3-761c-4427-b05b-1874153613d7)
+
+CustomerChurn_version1 Row Count 
+
+![Query7 1](https://github.com/user-attachments/assets/361a32c1-fa9d-4d82-bb81-493dcc5ca950)
+
+![Output7 1](https://github.com/user-attachments/assets/00dd4327-fc3e-4cc9-b801-b72ce2689f02)
+
+CustomerChurn Row Count 
+
+![Query7 2](https://github.com/user-attachments/assets/ac5935d7-52cf-4492-8877-4acd2aed032e)
+
+![Output7 2](https://github.com/user-attachments/assets/0acc9dce-abd1-48f7-8da0-deb2426529b1)
+
+![Query7 3](https://github.com/user-attachments/assets/b36c3c3c-00c9-4402-9c3d-064f0c498749)
+
+![Output7 3](https://github.com/user-attachments/assets/66fcae1b-23fc-4d60-9f7e-470f8b6695e7)
+
+Rows available in CustomerChurn_Version1 but not in CustomerChurn
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Query 8: Identified updated rows in **Customer.CustomerChurn** by comparing non-PK column values against **Customer.CustomerChurn_Version1**, joined on **CustomerId**. Retrieved and displayed rows where attribute differences triggered UPDATE logic in the stored procedure, confirming updated **CreateDtm** and **ChangeDtm** values for modified records. Output ordered by **CustomerId**.
+
+![Query8](https://github.com/user-attachments/assets/4ec5962c-0ad0-4526-924a-dfb37317d9fe)
+
+MySQL Commands
+
+![Output8](https://github.com/user-attachments/assets/6eb537f9-f7cd-49a2-8ffc-bd5b04d504e3)
+
+CustomerChurn Table Join
+
+![Output8 1](https://github.com/user-attachments/assets/847a6465-915e-4de2-a54f-177302563187)
+
+CustomerChurn_Version1 Join
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Query 9: Retrieved the final state of **Customer.CustomerChurn** after loading data from **CustomerChurn2.csv**, displaying the last few rows ordered by **CustomerId**. Identified and listed all newly inserted rows that exist in **Customer.CustomerChurn** but not in **Customer.CustomerChurn_Version1**, confirming correct execution of the INSERT logic in the stored procedure.
+
+![Query9](https://github.com/user-attachments/assets/4b041907-9c62-409e-830d-da86f72192db)
+
+MySQL Commands 
+
+![Output9](https://github.com/user-attachments/assets/4f19bbd6-d34f-4bb5-9ea7-1db34cba3adc)
+
+Rows available in CustomerChurn But not in CustomerChurn_Version 1 
