@@ -41,3 +41,15 @@ Designing warehouse structures and applying advanced SQL techniques for analytic
 High-level warehousing concepts and cloud-based data handling using Azure services.
 
 [Advanced Data Warehousing & Cloud Data Management (Azure) full project link](https://github.com/pranall/SQLPortfolioProjects/blob/main/Data%20Warehousing%20and%20Analytics%20in%20the%20Cloud%20using%20SQL%20and%20Azure/Folder%204:%20Advanced%20Data%20Warehousing%20&%20Cloud%20Data%20Management/README.md)
+
+------
+
+**Nashville Housing Data Cleaning using SQL**
+
+**Summary:**
+End-to-end SQL data cleaning and normalization of real estate transaction data, transforming raw housing records into an analysis-ready dataset through schema standardization, deduplication, and integrity enforcement.
+
+**Skills used:**
+Data cleaning, data type normalization, self-joins, string parsing, CASE logic, window functions, CTEs, deduplication, schema alteration, constraint enforcement, indexing, SQL Server (SSMS).
+
+[Nashville Housing Data Cleaning using SQL Full Project link](https://github.com/pranall/SQLPortfolioProjects/blob/main/Nashville%20Housing%20Data%20Cleaning/Nashville%20Housing%20Data%20Cleaning%20README.md)
